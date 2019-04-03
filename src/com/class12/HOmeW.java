@@ -12,7 +12,9 @@ public class HOmeW {
 		   if(browser.equalsIgnoreCase("ChRoME")) {
 		     System.out.println("Proceed with chrome Browser");
 		   }else if(browser.equalsIgnoreCase("Firefox")){
-			   System.out.println("");
+			   System.out.println("Proceed with firefox Browser");
+		   }else if(browser.equalsIgnoreCase("ie")){
+			   System.out.println("Proceed with IE Browser");
 		   }else {
 			   System.out.println("Invalid Browser");
 		   }
