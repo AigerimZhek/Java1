@@ -8,13 +8,15 @@ public class StringManip {
 		String str="Students";
 		
 		char character=str.charAt(7);
-		System.out.println(character);
 		
 	
-		for(int i=0; i<str.length()/2; i++) {
+		for(int i=0; i<str.length(); i++) {
+		
 			System.out.print(str.charAt(i)+",");
-			
 			if(i==6) {
+				
+				
+				System.out.println(character);
 				break;
 			}
 		}
