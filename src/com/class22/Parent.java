@@ -11,10 +11,7 @@ public class Parent {
 		System.out.println("We can sing");
 	}
 
-	public void swim () {
-		System.out.println("Child 2 can swim");
-	}
-
+	
 	public void playTennis() {
 		System.out.println("Child 1 can play tennis");
 	}
