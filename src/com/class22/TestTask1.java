@@ -8,6 +8,8 @@ public class TestTask1 {
 		obj.getInfo();
 		Task1 obj1 = new Task1();
 		
+		Dog obj2 = new Dog("Toyta","Camry",4,90,00);
+		
 	}
 
 }
