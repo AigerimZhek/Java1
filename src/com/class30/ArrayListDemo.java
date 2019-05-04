@@ -32,6 +32,9 @@ public class ArrayListDemo {
 		for(int i=greetings.size(); i>0; i--) {
 			System.out.println(greetings.get(i-1));
 		}
+		
+		greetings.clear();
+		System.out.println(greetings.size());//0
 	
 	
 	}
