@@ -7,13 +7,17 @@ public class Aik {
 		int sum = 0;
 		for(int i = 0; i < a.length; i++)
 		{
-		for(int j = 0; j < a[0].length; j++)
+		for(int j = 0; j < a[i].length; j++)
 		{
 		sum += a[i][j];
 		}
 		}
 		System.out.println("sum = " + sum);
 
+		int s = 10 + + 11 - -12 + + 13 - -14 + -15;
+		System.out.println(s);
+		
+		
 	}
 
 }

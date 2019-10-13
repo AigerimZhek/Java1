@@ -20,32 +20,33 @@ public class CarsArrList {
 		cars.add("Tesla");
 		cars.add("Dodge");
 
-		System.out.println("First way------------------------------------");
-		
-		for (int i=0; i<cars.size(); i++) {
-			System.out.println(cars.get(i));
-		}
-		
-		System.out.println("Second way------------------------------------");
+//		System.out.println("First way------------------------------------");
+//		
+//		for (int i=0; i<cars.size(); i++) {
+//			System.out.println(cars.get(i));
+//		}
+//		
+//		System.out.println("Second way------------------------------------");
 		
 		for(String car:cars) {
 			System.out.println(car);
+			cars.add("a");
 		}
 		
-		System.out.println("Third way--------------------------------------");
-		
-		int a=0;
-		while(cars.size()>a) {
-			System.out.println(cars.get(a));
-			a++;
-		}
-		
-		System.out.println("Fourth way------------------------------------");
-		
-		Iterator <String> it = cars.iterator();
-		while(it.hasNext()) {
-			System.out.println(it.next());
-		}
+//		System.out.println("Third way--------------------------------------");
+//		
+//		int a=0;
+//		while(cars.size()>a) {
+//			System.out.println(cars.get(a));
+//			a++;
+//		}
+//		
+//		System.out.println("Fourth way------------------------------------");
+//		
+//		Iterator <String> it = cars.iterator();
+//		while(it.hasNext()) {
+//			System.out.println(it.next());
+//		}
 	}
 
 }

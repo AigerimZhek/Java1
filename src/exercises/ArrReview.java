@@ -9,6 +9,7 @@ public class ArrReview {
 		Scanner scan=new Scanner(System.in);
 
 		int[] numbers= {1,2,3,4,5,6,7,8,9,10};
+		
         boolean found = false;
         
         for(int i =0; i <10; i++) {

@@ -1,4 +1,4 @@
-package com.class29;
+ package com.class29;
 
 public interface Webdriver extends TakeScreenshot, Execute{
 	
@@ -6,5 +6,7 @@ public interface Webdriver extends TakeScreenshot, Execute{
 	void closeDrier();
 	void maximizeWindow();
 	void findElement();
+	
+	
 
 }

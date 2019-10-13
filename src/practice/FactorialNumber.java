@@ -27,6 +27,7 @@ public class FactorialNumber {
 
 		System.out.println(factorial(10));
 		System.out.println(factor(5));
+		System.out.println(factorial(0));
 	}
 
 }

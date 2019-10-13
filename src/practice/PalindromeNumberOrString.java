@@ -1,11 +1,11 @@
-package practice;
+ package practice;
 
 public class PalindromeNumberOrString {
 
 	
 	public static void isPalindrome(int num) {
 		int remainder;
-		int sum=0;
+		int reverse=0;
 		int originalValue;
 		originalValue=num;
 		
@@ -13,11 +13,11 @@ public class PalindromeNumberOrString {
 		
 		while(num>0) {
 			remainder = num%10;
-			sum = (sum*10)+remainder;
+			reverse = (reverse*10)+remainder;
 			num=num/10;
 		}
 		
-		if(originalValue==sum) {
+		if(originalValue==reverse) {
 			System.out.println("palindrome");
 		}else {
 			System.out.println("not palindrome");

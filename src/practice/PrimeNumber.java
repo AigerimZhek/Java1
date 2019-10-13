@@ -25,5 +25,6 @@ public class PrimeNumber {
 	
 	public static void main(String[] args) {
 		check(55);
+		System.out.println(isPrime(11));
 	}
 }
